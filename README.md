@@ -15,7 +15,7 @@ trulense_dashboard: https://evaluationdashboardpy-k8zboht9zpanqfkwnwkgec.streaml
 
 We would like to inform you that the GitHub repository associated with the Snowflake-Mistral-RAG DevPost Challenge (https://snowflake-mistral-rag.devpost.com/) is restricted for use by judges only.
 
-This means that no one apart from the designated judges is permitted to access, clone, fork, or use the repository for any purpose. Unauthorized use or access will be considered a violation of the challenge rules and may result in disqualification or further action.
+This means that no one apart from the designated judges is permitted to access, clone, fork, or use the repository for any purpose.
 
 ## Overview
 
