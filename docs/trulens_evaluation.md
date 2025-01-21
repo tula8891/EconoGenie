@@ -1,6 +1,12 @@
 # TrueLens Integration Documentation
 
 
+Developed and Designed By:
+
+Parmanand Sahu :   https://parmanandsahu.com/
+
+Tula Ram Sahu :    https://in.linkedin.com/in/tula-ram-sahu-003226104
+
 
 This document outlines how TrueLens is integrated into our application for evaluating Cortex Search Service performance.
 

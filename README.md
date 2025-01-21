@@ -1,4 +1,11 @@
 # ECONOGENIE: Personal Finance BRO
+
+Developed and Designed By:
+
+Parmanand Sahu :   https://parmanandsahu.com/
+
+Tula Ram Sahu :    https://in.linkedin.com/in/tula-ram-sahu-003226104
+
 Website_url:   https://econogenie.streamlit.app/
 
 trulense_dashboard: https://evaluationdashboardpy-k8zboht9zpanqfkwnwkgec.streamlit.app/

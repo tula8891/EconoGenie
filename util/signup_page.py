@@ -18,6 +18,8 @@ def signup_page(st):
         - Session state management
     """
 
+   
+
     # Center-aligned container
     col1, col2, col3 = st.columns([1, 2, 1])
 
@@ -53,3 +55,20 @@ def signup_page(st):
         st.write("Already have an account?")
         if st.button("Login", use_container_width=True):
             st.session_state.page = "login"
+        st.markdown(
+        """
+        <style>
+        .custom-text {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+            color: black;
+        }
+        </style>
+        <div class="custom-text">
+            <strong>Developed and Designed By:</strong><br>
+            Parmanand Sahu - <a href="https://parmanandsahu.com/" target="_blank">https://parmanandsahu.com/</a><br>
+            Tula Ram Sahu - <a href="https://in.linkedin.com/in/tula-ram-sahu-003226104" target="_blank">https://in.linkedin.com/in/tula-ram-sahu-003226104</a>
+        </div>
+        """, unsafe_allow_html=True)

@@ -5,6 +5,8 @@
 def login_page(st, email_user, password_user):
     """Render the login page of the Streamlit application."""
 
+    
+
     # Center-aligned container
     col1, col2, col3 = st.columns([1, 2, 1])
 
@@ -34,6 +36,25 @@ def login_page(st, email_user, password_user):
 
         # Sign up link
         st.write("Don't have an account?")
+        
         if st.button("Sign Up", use_container_width=True):
             st.session_state.page = "signup"
+        st.markdown(
+            """
+            <style>
+            .custom-text {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                font-size: 14px;
+                color: black;
+            }
+            </style>
+            <div class="custom-text">
+                <strong>Developed and Designed By:</strong><br>
+                Parmanand Sahu - <a href="https://parmanandsahu.com/" target="_blank">https://parmanandsahu.com/</a><br>
+                Tula Ram Sahu - <a href="https://in.linkedin.com/in/tula-ram-sahu-003226104" target="_blank">https://in.linkedin.com/in/tula-ram-sahu-003226104</a>
+                </div>
+                """, unsafe_allow_html=True)
+            
             

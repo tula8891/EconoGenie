@@ -84,6 +84,8 @@ def main_page():
     """
     logging.info("Displaying main page.")
 
+    
+
     # Custom CSS for sidebar
     st.markdown(
         """
@@ -123,6 +125,7 @@ def main_page():
     with nav_col1:
         st.title("Econo Genie")
         st.caption("Personal Finance BRO")
+        
     with nav_col3:
         if st.button("🚪 Logout", type="secondary", use_container_width=True):
             logging.info("Logout button clicked. Clearing session state and redirecting to login page.")
@@ -227,6 +230,9 @@ def main_page():
     with st.sidebar:
         st.title("EconoGenie")
         st.markdown("### Personal Finance App")
+        st.markdown("### Developed and Designed By")
+        st.markdown("### Parmanand Sahu : https://parmanandsahu.com/")
+        st.markdown("### Tula Ram Sahu: https://in.linkedin.com/in/tula-ram-sahu-003226104")
 
         st.markdown("---")
 
@@ -288,7 +294,7 @@ def main_page():
         )
         # Financial Literacy Chat Interface
         display_chat_interface("fin_lit", "Ask about financial concepts...")
-
+       
     elif st.session_state.current_section == "investment":
         st.header("💰 Personalized Investment Recommendations")
         st.markdown(
@@ -302,6 +308,7 @@ def main_page():
         )
         # Investment Chat Interface
         display_chat_interface("investment", "Ask about investment strategies...")
+        
 
     elif st.session_state.current_section == "ai_agents":
         st.header("🤖 AI Agents [Beta]")
@@ -317,6 +324,7 @@ def main_page():
         st.warning("This is a beta feature. Recommendations should be verified with a financial advisor.")
         # AI Agents Chat Interface
         display_chat_interface("ai_agent", "Ask for AI-powered analysis...")
+        
 
     # Initialize session state variables if not set
     init_service_metadata()
@@ -640,6 +648,25 @@ def landing_page():
     Landing page of the Streamlit application that introduces the app and its features.
     """
     logging.info("Displaying landing page.")
+    st.markdown(
+                """
+                <style>
+                .custom-text {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    font-size: 14px;
+                    color: black;
+                }
+                </style>
+                <div class="custom-text">
+                    <strong>Developed and Designed By:</strong><br>
+                    Parmanand Sahu - <a href="https://parmanandsahu.com/" target="_blank">https://parmanandsahu.com/</a><br>
+                    Tula Ram Sahu - <a href="https://in.linkedin.com/in/tula-ram-sahu-003226104" target="_blank">https://in.linkedin.com/in/tula-ram-sahu-003226104</a>
+                </div>
+                """, unsafe_allow_html=True)
+
+
     # Set up the page layout
 
     # Custom CSS for styling (without hardcoding colors)
@@ -712,6 +739,8 @@ def landing_page():
         """,
         unsafe_allow_html=True,
     )
+
+
 
     # Navigation Bar
     col1, col2, col3, col4, col5 = st.columns([4, 2, 2, 2, 2])
