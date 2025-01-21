@@ -1,5 +1,7 @@
 # ECONOGENIE: Personal Finance BRO
+Website_url:   https://econogenie.streamlit.app/
 
+trulense_dashboard: https://evaluationdashboardpy-k8zboht9zpanqfkwnwkgec.streamlit.app/
 ## Overview
 
 An autonomous AI agent crafted to help users master their finances with minimal human intervention, while maintaining transparent decision-making and keeping the human decision-maker firmly in the loop.
