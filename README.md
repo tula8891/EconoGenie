@@ -1,5 +1,5 @@
 # ECONOGENIE: Personal Finance BRO
-This is not open source project. Copy
+
 Developed and Designed By:
 
 Parmanand Sahu :   https://parmanandsahu.com/
@@ -12,6 +12,8 @@ trulense_dashboard: https://evaluationdashboardpy-k8zboht9zpanqfkwnwkgec.streaml
 
 -------
 ### Note
+
+This is not open source project.
 
 We would like to inform you that the GitHub repository associated with the Snowflake-Mistral-RAG DevPost Challenge (https://snowflake-mistral-rag.devpost.com/) is restricted for use by judges only.
 
