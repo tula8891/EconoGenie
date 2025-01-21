@@ -1,5 +1,5 @@
 # ECONOGENIE: Personal Finance BRO
-
+This is not open source project. Copy
 Developed and Designed By:
 
 Parmanand Sahu :   https://parmanandsahu.com/
@@ -9,6 +9,14 @@ Tula Ram Sahu :    https://in.linkedin.com/in/tula-ram-sahu-003226104
 Website_url:   https://econogenie.streamlit.app/
 
 trulense_dashboard: https://evaluationdashboardpy-k8zboht9zpanqfkwnwkgec.streamlit.app/
+
+-------
+### Note
+
+We would like to inform you that the GitHub repository associated with the Snowflake-Mistral-RAG DevPost Challenge (https://snowflake-mistral-rag.devpost.com/) is restricted for use by judges only.
+
+This means that no one apart from the designated judges is permitted to access, clone, fork, or use the repository for any purpose. Unauthorized use or access will be considered a violation of the challenge rules and may result in disqualification or further action.
+
 ## Overview
 
 An autonomous AI agent crafted to help users master their finances with minimal human intervention, while maintaining transparent decision-making and keeping the human decision-maker firmly in the loop.
@@ -254,9 +262,6 @@ Example: make release VERSION=1.7.1  # Create release with specific version
 4. Added force-commit option
 5. Updated test coverage
 
-
-## License
-MIT License - see [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 - Snowflake Team
