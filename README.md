@@ -255,7 +255,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 - Streamlit Team
 - DevPost Team
 
-## Frequently Asked Questions (FAQ)
+## Sample Questions for users of EconoGenie
 
 ### 1. **What is the company’s market share in its industry?**
 
