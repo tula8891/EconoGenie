@@ -13,7 +13,7 @@ trulense_dashboard: https://evaluationdashboardpy-k8zboht9zpanqfkwnwkgec.streaml
 
 An autonomous AI agent crafted to help users master their finances with minimal human intervention, while maintaining transparent decision-making and keeping the human decision-maker firmly in the loop.
 
-## Facts about Financial
+## Facts
 1. In 2024, $243 billion was lost countrywide of the average American losing $1,015 owing to ignorance of finance.
 2. In 2022, credit card issuers charged over $14 billion in late fees alone, which represented more than 10% of the $130 billion they charged in total interest and fees.
 
