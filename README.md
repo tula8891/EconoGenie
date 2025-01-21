@@ -259,16 +259,20 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Sample Questions for users of EconoGenie
 
-### 1. **What is the company’s market share in its industry?**
+### 1. **How much should I save each month to achieve my financial goals?**
 
 **Use Case**:
-When analyzing a company, an investor might want to understand how much of the market the company controls compared to its competitors. For example, if you’re considering investing in a tech company, knowing its market share in the AI chip sector (like NVIDIA's) could give you a sense of its industry dominance.
+Determining how much to save each month to achieve your financial goals involves a few key steps. First, clearly define your financial goals, whether they are short-term, like saving for a vacation, or long-term, such as retirement or buying a house. Next, estimate the total cost of each goal and the timeframe in which you want to achieve them. For example, if you want to save for a vacation that costs $2,000 and you plan to go in a year, you'll need to save about $167 each month.
+
+Once you have a clear picture of your goals, create a budget to understand your income and expenses. Identify areas where you can cut back to free up more money for savings. A common guideline is the 50/30/20 rule, which suggests allocating 50% of your income to necessities, 30% to wants, and 20% to savings and debt repayment. However, you can adjust these percentages based on your specific needs and goals.
 
 
-### 2. **How is the company adapting to changes in its industry (e.g., new technology, regulatory changes)?**
+### 2. **How do I pay off debt faster and minimize interest?**
 
 **Use Case**:
-Imagine you’re reviewing a company in the electric vehicle (EV) industry. You might want to know how the company is responding to new regulations around emissions or adopting new battery technologies to stay competitive.
+Paying off debt faster and minimizing interest are crucial steps towards improving your financial health. To achieve this, start by understanding your debt. List all your debts, including the creditor, total amount owed, interest rate, and minimum payment. Prioritize your debts based on their interest rates, as those with higher rates are costing you the most money. Next, create a budget by tracking your income and expenses to identify areas where you can cut back and allocate extra money towards debt repayment.
+
+One effective strategy is to pay more than the minimum required payment. This can significantly reduce the time it takes to pay off your debt and the total interest you pay. For example, if you have a $10,000 credit card debt with a 15% interest rate and a minimum payment of $200, paying an extra $100 each month can save you thousands in interest and shave years off your repayment time.
 
 
 ### 3. **Is the company targeting emerging markets for growth?**
