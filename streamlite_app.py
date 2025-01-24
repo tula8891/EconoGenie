@@ -648,23 +648,38 @@ def landing_page():
     Landing page of the Streamlit application that introduces the app and its features.
     """
     logging.info("Displaying landing page.")
+# Display Developer Information
+    # Display Developer Information with better spacing and formatting
     st.markdown(
-                """
-                <style>
-                .custom-text {
-                    position: absolute;
-                    top: 10px;
-                    left: 10px;
-                    font-size: 14px;
-                    color: black;
-                }
-                </style>
-                <div class="custom-text">
-                    <strong>Developed and Designed By:</strong><br>
-                    Parmanand Sahu - <a href="https://parmanandsahu.com/" target="_blank">https://parmanandsahu.com/</a><br>
-                    Tula Ram Sahu - <a href="https://in.linkedin.com/in/tula-ram-sahu-003226104" target="_blank">https://in.linkedin.com/in/tula-ram-sahu-003226104</a>
-                </div>
-                """, unsafe_allow_html=True)
+        """
+        <div style="font-size: 16px; color: black; margin-bottom: 30px;">
+            <strong>Developed and Designed By:</strong><br>
+            <a href="https://parmanandsahu.com/" target="_blank">Parmanand Sahu</a><br>
+            <a href="https://in.linkedin.com/in/tula-ram-sahu-003226104" target="_blank">Tula Ram Sahu</a>
+        </div>
+        """, unsafe_allow_html=True
+    )
+
+    # Display Prototype Notice with improved styling
+    st.markdown(
+        """
+        <div style="font-size: 16px; color: black; line-height: 1.6; margin-bottom: 30px;">
+            <strong>Please note:</strong><br>
+            This is a prototype with limited features and does not function like the final app. <br>
+            We are actively working on the full version, and your feedback is invaluable to us.
+        </div>
+        """, unsafe_allow_html=True
+    )
+
+    # Provide Feedback Link with improved formatting and make it clickable
+    st.markdown(
+        """
+        <div style="font-size: 16px; color: black; line-height: 1.6;">
+            <strong>Click here to provide feedback:</strong><br>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScwNd3AFzwqLK9OKj2ABEXPjiXENmTakq1ZG96whvTjnmJrOg/viewform?usp=preview" target="_blank" style="color: blue; text-decoration: underline;">Feedback Form</a>
+        </div>
+        """, unsafe_allow_html=True
+    )
 
 
     # Set up the page layout
