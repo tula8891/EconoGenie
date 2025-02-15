@@ -64,7 +64,7 @@ def initialize_session():
             "warehouse": st.secrets["myconnection"]["warehouse"],
             "database": st.secrets["myconnection"]["database"],
             "schema": st.secrets["myconnection"]["schema"],
-            "ocsp_fail_open":FALSE
+            "ocsp_fail_open":False
         }
         try:
             st.session_state.session = Session.builder.configs(connection_params).create()
