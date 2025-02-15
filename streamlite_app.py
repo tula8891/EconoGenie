@@ -655,6 +655,7 @@ def landing_page():
     st.markdown(
         """
         <div style="font-size: 16px; color: black; margin-bottom: 30px;">
+            <strong>Please Reach Out Any Developer</strong><br>
             <strong>Developed and Designed By:</strong><br>
             <a href="https://parmanandsahu.com/" target="_blank">Parmanand Sahu</a><br>
             <a href="https://in.linkedin.com/in/tula-ram-sahu-003226104" target="_blank">Tula Ram Sahu</a>
