@@ -64,7 +64,7 @@ def initialize_session():
             "warehouse": st.secrets["myconnection"]["warehouse"],
             "database": st.secrets["myconnection"]["database"],
             "schema": st.secrets["myconnection"]["schema"],
-             "insecure_mode":False,
+             "insecure_mode":True,
         }
         try:
             st.session_state.session = Session.builder.configs(connection_params).create()
