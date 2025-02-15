@@ -231,6 +231,7 @@ def main_page():
     with st.sidebar:
         st.title("EconoGenie")
         st.markdown("### Personal Finance App")
+        st.markdown("### Please Reach out any developer")
         st.markdown("### Developed and Designed By")
         st.markdown("### Parmanand Sahu : https://parmanandsahu.com/")
         st.markdown("### Tula Ram Sahu: https://in.linkedin.com/in/tula-ram-sahu-003226104")
